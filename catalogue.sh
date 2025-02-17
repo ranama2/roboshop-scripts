@@ -17,7 +17,7 @@ cd /app
 unzip /tmp/catalogue.zip
 npm install
 
-systemctl reload-daemon
+systemctl daemon-reload
 
 systemctl enable catalogue
 systemctl start catalogue
